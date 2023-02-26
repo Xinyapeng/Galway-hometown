@@ -1,0 +1,103 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+.hero{
+    margin: -25px 0 0 0;
+    background-image: url("images/galway.jpg");
+    background-size: cover;
+    height: 454px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    
+}
+#title1, #title2{
+    font-family: 'Sorts Mill Goudy', serif;
+}
+#title1{
+    margin-top: -40px;
+    background-color: #260F26;
+    color: whitesmoke;
+    border: 4px solid #260F26;
+    border-radius: 10px;
+    padding: 8px 10px;
+}
+#title2{
+    background-color: #404E7C;
+    color: whitesmoke;
+    border: 4px solid #404E7C;
+    border-radius: 10px;
+    padding: 8px 10px;
+    margin-top: 0;
+}
+#pic1,#pic2,#pic3{
+    border-radius: 50%;
+    border: 4px solid #404E7C;
+}
+#middle{
+    background-color: #71B48D;
+    margin-top: -20px;
+    margin-bottom: 30px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-weight: 400;
+}
+.activities{
+    padding-top: 15px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+#block1,#block2,#block3{
+    margin: 0 25px;
+}
+h3,h4,p{
+    font-family: 'Josefin Sans', sans-serif;
+}
+.end{
+    background-color: white;
+    height: 240px;
+}
+.guide{
+    width:400px;
+    height: 180px;
+    padding: 10px 30px;
+    background-color: #404E7C;
+    border-bottom: 5px solid #260F26;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: auto;
+}
+#interduction{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#me{
+    margin: 0;
+    font-family: 'Shantell Sans', cursive;
+}
+#happy{
+    border-bottom: 3px solid red;
+}
